@@ -32,18 +32,10 @@ function About() {
           <div className="about-text">
             <h1>About Me</h1>
             <p>
-              Hello! I'm Preeti Davda, a dedicated Full-Stack Developer with
-              a strong foundation in computer information technology.
-              where I honed my skills in programming languages such as C,JavaScript
-             and databases like MySQL.
+             Hello! I'm Preeti Davda, a dedicated Full-Stack Developer with a strong foundation in Computer Information Technology. I have honed my skills in programming languages such as C and JavaScript, as well as in working with databases like MySQL.
             </p>
             <p>
-              To further enhance my expertise, I enrolled in a Full-Stack
-              Development course at Red and White Education. Through this
-              program, I've gained proficiency in front-end technologies like
-              HTML, CSS, JavaScript, React.js, and Bootstrap. Currently, I'm
-              expanding my knowledge in back-end technologies, focusing on
-              Node.js and MongoDB.
+              To further enhance my expertise, I enrolled in a Full-Stack Development course at Red & White Education. Through this program, I have gained proficiency in front-end technologies such as HTML, CSS, JavaScript, React.js, and Bootstrap. Currently, I am expanding my knowledge in back-end technologies, with a focus on Node.js and MongoDB.
             </p>
             <p>
               My goal is to leverage this comprehensive skill set to build
