@@ -47,7 +47,7 @@ function About() {
       </div>
 
       <section className="skills">
-        <h2>Skills and Technologies</h2>
+        <h2>Skills and Technologies</h2>  // are project kya 6
         <div className="cards-container">
           {skills.map((skill, index) => (
             <div className="card" key={index}>

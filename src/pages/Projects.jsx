@@ -7,43 +7,32 @@ import todoImg from "../assets/images/todo_app_img.png";
 import weatherImg from "../assets/images/weather_app_img.png";
 import ticTacToeImg from "../assets/images/tic_tac_toe_app_img.png";
 import dogHospitalImg from "../assets/images/dog_hospital_img.png";
-
+import ReactCrud from '../assets/images/image.png'
+import Calc from '../assets/images/Calc.png'
 const projects = [
   {
-    title: "Interactive To-Do List Application",
+    title: "Interactive Caluclator Application",
     description:
-      "Developed a dynamic to-do list web application using HTML, CSS, and JavaScript, with real-time task management features.",
-    image: todoImg,
-    link: "https://jaimin-todo-app.netlify.app/",
+      "Developed a dynamic Caluclator web application using HTML, CSS, and JavaScript, with real-time task management features.",
+    image: Calc,
+    link: "https://mathzy.netlify.app/",
   },
-  {
-    title: "Weather Forecast Application",
-    description:
-      "Built a weather application using HTML, CSS, and JavaScript, integrating real-time weather data via APIs.",
-    image: weatherImg,
-    link: "https://jaimin-weather-app.netlify.app/",
-  },
+  
   {
     title: "Tic-Tac-Toe Game",
     description:
       "Designed and developed a fully functional Tic-Tac-Toe game with HTML, CSS, and JavaScript, incorporating real-time game updates.",
     image: ticTacToeImg,
-    link: "https://jaimin-tic-tac-toe-app.netlify.app/",
+    link: "https://fungame11.netlify.app/",
   },
   {
     title: "Dummy Application with CRUD Features and ReactJS",
     description:
       "Built a CRUD application using ReactJS, Firebase, JSON Server, and Axios API, demonstrating expertise in dynamic UI design.",
-    image: "/images/crud.jpg",
-    link: "https://your-crud-live-link.com",
+    image: ReactCrud,
+    link: "https://redux-toolkit-nine-taupe.vercel.app/",
   },
-  {
-    title: "Dog Hospital Website",
-    description:
-      "Designed a dog hospital website prototype using HTML, CSS, and Bootstrap, ensuring responsive layout and organized design.",
-    image: dogHospitalImg,
-    link: "https://jaimin-pet-hospital-app.netlify.app/",
-  },
+  
 ];
 
 function Projects() {
