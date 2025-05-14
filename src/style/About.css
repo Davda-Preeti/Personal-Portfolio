@@ -1,0 +1,192 @@
+/* About.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #0a192f; /* Deep Navy Blue */
+  --accent-color: #e19f0f; /* Golden Yellow */
+  --text-color: #ffffff; /* White */
+  --text-secondary-color: #d1d1d1; /* Light Gray */
+  --card-bg: rgba(255, 255, 255, 0.1);
+  --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.about-container {
+  padding: 40px 10%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-content {
+  /* min-height: 70vh; */
+  min-width: 78vw;
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin-bottom: 2rem;
+}
+
+h1, h2 {
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+/* About Me Section */
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin-bottom: 20px;  */
+  text-align: left;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.about-text p {
+  margin-bottom: 10px;
+}
+
+/* Cards Layout */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: var(--card-bg);
+  box-shadow: 0 4px 12px var(--shadow-color);
+  color: var(--text-secondary-color);
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h3 {
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.95rem;
+}
+
+/* Resume Button */
+.resume-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.resume-button:hover {
+  background-color: #ffb700;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .about-container {
+    padding: 40px 5%;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+
+  .profile-img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .about-text {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-me {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main-content {
+    padding-top: 1.8rem;
+  }
+
+  .profile-img {
+    margin-bottom: 20px;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-container {
+    padding: 20px;
+  }
+
+  .main-content {
+    padding-top: 1.8rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .resume-button {
+    width: 100%;
+    padding: 15px;
+  }
+}
