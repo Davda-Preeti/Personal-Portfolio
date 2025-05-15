@@ -3,10 +3,7 @@ import "../style/Projects.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import todoImg from "../assets/images/todo_app_img.png";
-import weatherImg from "../assets/images/weather_app_img.png";
 import ticTacToeImg from "../assets/images/tic_tac_toe_app_img.png";
-import dogHospitalImg from "../assets/images/dog_hospital_img.png";
 import ReactCrud from '../assets/images/image.png'
 import Calc from '../assets/images/Calc.png'
 const projects = [

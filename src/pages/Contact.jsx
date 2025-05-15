@@ -18,14 +18,7 @@ function Contact() {
     // Handle form submission
     console.log(data);
 
-    // try {
-    //   await db.collection("contacts").add(data);
-    //   alert("Your message has been sent!");
-    // } catch (error) {
-    //   alert("There was an error sending your message.");
-    // }
-
-    // Show success toast notification
+    
     toast.success("Form submitted successfully!", {
       position: "top-center",
       autoClose: 2000,

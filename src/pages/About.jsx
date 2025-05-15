@@ -47,7 +47,7 @@ function About() {
       </div>
 
       <section className="skills">
-        <h2>Skills and Technologies</h2>  // are project kya 6
+        <h2>Skills and Technologies</h2>  
         <div className="cards-container">
           {skills.map((skill, index) => (
             <div className="card" key={index}>
@@ -65,6 +65,7 @@ function About() {
             <h3>12th(HSC)</h3>
             <p>
               Aum Vidya Mandir
+              Gandhidham,Kutchchh
               <br /> [2015]
             </p>
           </div>
@@ -73,8 +74,18 @@ function About() {
             <p>
               Red and White Education, Completed
               <br /> [2024-2025]
-            </p>
+            </p>  
           </div>
+          <div className="card">
+            <h3>Tally ERP9 and Ofiice Automation</h3>
+            <p>
+              Indian Red Cross Society, 
+              Gandhidham,Kutchchh
+              <br/>Completed
+              <br /> [2015]
+            </p>  
+          </div>
+          
         </div>
       </section>
 

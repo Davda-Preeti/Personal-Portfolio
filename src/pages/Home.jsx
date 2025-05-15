@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "../style/Home.css"; // Import the external CSS file
 
 function Home() {
